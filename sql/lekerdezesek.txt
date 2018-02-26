@@ -1,17 +1,17 @@
-6.a,
+a
 SELECT COUNT(name), house 
 FROM characters 
 WHERE dead=0 AND organization='' AND house !='' 
 GROUP BY house
-6.b,
+b
 SELECT * 
 FROM characters 
 WHERE bio LIKE '%hero%' AND dead=0
-6.c,
+c
 SELECT name 
 FROM characters 
 WHERE organization='nightwatch' AND dead=0 AND house=''
-6.d,
+d
 SELECT name AS Hero, alias AS NickName, house AS BigHouse
 FROM characters
 WHERE dead=0 AND house <>'lannister' AND organization <>'royalguard' AND bio NOT LIKE '%lannister%' OR '%king\'s landing%'
