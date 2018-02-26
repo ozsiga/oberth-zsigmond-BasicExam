@@ -1,3 +1,28 @@
-div {
-    background-image: url("/assets/site/mapblue.jpg")
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#keres {
+    height: 100%;
+    width: 20%;
+    padding: 1%;
+    background-color: #464647;
+    float: right;
+    box-sizing: border-box;
+}
+
+#gameof {
+    height: 100%;
+    width: 80%;
+    padding: 1%;
+    background-image: url('/assets/site/mapblue.jpg');
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
 }
